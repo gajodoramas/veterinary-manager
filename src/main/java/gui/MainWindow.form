@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="barraMenu">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="mascotaMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mascotas"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="annadirMascotaMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="A&#xf1;adir mascota..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="annadirMascotaMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="eliminarMascotaMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Eliminar mascota..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eliminarMascotaMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="limpiarTablaMascotasMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Limpiar tabla..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="limpiarTablaMascotasMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="revisionesMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Revisiones"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="annadirRevisionMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="A&#xf1;adir revisi&#xf3;n..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="annadirRevisionMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="eliminarRevisionMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Eliminar revisi&#xf3;n..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eliminarRevisionMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="limpiarTablaRevisionesMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Limpiar tabla..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="limpiarTablaRevisionesMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="productosMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Productos"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="annadirProductoMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="A&#xf1;adir producto..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="annadirProductoMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="eliminarProductoMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Eliminar producto..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eliminarProductoMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="limpiarTablaProductosMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Limpiar tabla..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="limpiarTablaProductosMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="informacionMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Informaci&#xf3;n"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="infoVeteMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Informaci&#xf3;n del veterinario..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="infoVeteMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="infoAppMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Informaci&#xf3;n de la aplicaci&#xf3;n..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="infoAppMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1360, 707]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="barraMenu"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="pestannasPanel" pref="1048" max="32767" attributes="0"/>
+                  <Component id="cabeceraLabel" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Component id="cabeceraLabel" min="-2" pref="41" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pestannasPanel" pref="423" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="cabeceraLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Veterinario Doramas"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="pestannasPanel">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="mascotasScrollPane">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Mascotas">
+                <Property name="tabTitle" type="java.lang.String" value="Mascotas"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="mascotasTable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="8" rowCount="10">
+                    <Column editable="false" title="N&#xfa;mero" type="java.lang.Object">
+                      <Data value="1"/>
+                      <Data value="2"/>
+                      <Data value="3"/>
+                      <Data value="4"/>
+                      <Data value="5"/>
+                      <Data value="6"/>
+                      <Data value="7"/>
+                      <Data value="8"/>
+                      <Data value="9"/>
+                      <Data value="10"/>
+                    </Column>
+                    <Column editable="true" title="Nombre" type="java.lang.String">
+                      <Data value="Java"/>
+                      <Data value="SQL"/>
+                      <Data value="Tormenta"/>
+                      <Data value="Rel&#xe1;mpago"/>
+                      <Data value="Alma"/>
+                      <Data value="Merluza"/>
+                      <Data value="Cali"/>
+                      <Data value="Jon el gordinfl&#xf3;n"/>
+                      <Data value="Golosina"/>
+                      <Data value="Bartolo"/>
+                    </Column>
+                    <Column editable="true" title="Especie" type="java.lang.String">
+                      <Data value="Rat&#xf3;n"/>
+                      <Data value="Rat&#xf3;n"/>
+                      <Data value="Tortuga"/>
+                      <Data value="Tortuga"/>
+                      <Data value="Perro"/>
+                      <Data value="Gato"/>
+                      <Data value="Gato"/>
+                      <Data value="Hamster"/>
+                      <Data value="Hamster"/>
+                      <Data value="Canario"/>
+                    </Column>
+                    <Column editable="true" title="Fecha de nacimiento" type="java.lang.Object">
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                    </Column>
+                    <Column editable="true" title="Due&#xf1;o" type="java.lang.String">
+                      <Data value="Doramas"/>
+                      <Data value="Doramas"/>
+                      <Data value="Doramas"/>
+                      <Data value="Doramas"/>
+                      <Data value="Paula"/>
+                      <Data value="Paula"/>
+                      <Data value="Paula"/>
+                      <Data value="Doramas"/>
+                      <Data value="Doramas"/>
+                      <Data value="Juan"/>
+                    </Column>
+                    <Column editable="true" title="Fecha de alta" type="java.lang.Object">
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                    </Column>
+                    <Column editable="true" title="Sexo" type="java.lang.String">
+                      <Data value="Hembra"/>
+                      <Data value="Hembra"/>
+                      <Data value="Hembra"/>
+                      <Data value="Macho"/>
+                      <Data value="Hembra"/>
+                      <Data value="Hembra"/>
+                      <Data value="Hembra"/>
+                      <Data value="Macho"/>
+                      <Data value="Hembra"/>
+                      <Data value="Macho"/>
+                    </Column>
+                    <Column editable="true" title="Observaci&#xf3;n" type="java.lang.String">
+                      <Data value="Da vueltas"/>
+                      <Data value="Molesta a Java"/>
+                      <Data value="Muerde"/>
+                      <Data value="Muerde"/>
+                      <Data value="Ladra a los coches"/>
+                      <Data value="No es de confianza"/>
+                      <Data value="Tiene cara de pena"/>
+                      <Data value="Albino"/>
+                      <Data value="Muy cute"/>
+                      <Data value="Canario busca canaria"/>
+                    </Column>
+                  </Table>
+                </Property>
+                <Property name="autoResizeMode" type="int" value="1"/>
+                <Property name="fillsViewportHeight" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="revisionesScrollPane">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Revisiones">
+                <Property name="tabTitle" type="java.lang.String" value="Revisiones"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="revisionesTable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="6">
+                    <Column editable="true" title="N&#xba; de revisi&#xf3;n" type="java.lang.Object">
+                      <Data value="1"/>
+                      <Data value="2"/>
+                      <Data value="3"/>
+                      <Data value="4"/>
+                      <Data value="5"/>
+                      <Data value="6"/>
+                    </Column>
+                    <Column editable="true" title="Mascota" type="java.lang.String">
+                      <Data value="Java"/>
+                      <Data value="SQL"/>
+                      <Data value="Alma"/>
+                      <Data value="Merluza"/>
+                      <Data value="Cali"/>
+                      <Data value="Golosina"/>
+                    </Column>
+                    <Column editable="true" title="Fecha de revisi&#xf3;n" type="java.lang.Object">
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                      <Data value="Fri Sep 30 22:15:26 WEST 2020"/>
+                    </Column>
+                    <Column editable="true" title="Precio (&#x20ac;)" type="java.lang.Integer">
+                      <Data value="50"/>
+                      <Data value="120"/>
+                      <Data value="70"/>
+                      <Data value="20"/>
+                      <Data value="34"/>
+                      <Data value="42"/>
+                    </Column>
+                  </Table>
+                </Property>
+                <Property name="fillsViewportHeight" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="productosScrollPane">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Productos">
+                <Property name="tabTitle" type="java.lang.String" value="Productos"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="productosTable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="5" rowCount="6">
+                    <Column editable="true" title="N&#xba; del producto" type="java.lang.Object">
+                      <Data value="1"/>
+                      <Data value="2"/>
+                      <Data value="3"/>
+                      <Data value="4"/>
+                      <Data value="5"/>
+                      <Data value="6"/>
+                    </Column>
+                    <Column editable="true" title="Nombre del producto" type="java.lang.Object">
+                      <Data value="Spray antipar&#xe1;sitos"/>
+                      <Data value="Gel protector"/>
+                      <Data value="Bolsa de pienso"/>
+                      <Data value="Collar LED"/>
+                      <Data value="Localizador GPS"/>
+                      <Data value="C&#xe1;psulas diet&#xe9;ticas"/>
+                    </Column>
+                    <Column editable="true" title="Tipo de animal" type="java.lang.Object">
+                      <Data value="Perros"/>
+                      <Data value="Perros"/>
+                      <Data value="Perros"/>
+                      <Data value="Todos"/>
+                      <Data value="Todos"/>
+                      <Data value="Gatos"/>
+                    </Column>
+                    <Column editable="true" title="Tipo del producto" type="java.lang.Object">
+                      <Data value="Sanitario"/>
+                      <Data value="Sanitario"/>
+                      <Data value="Alimentaci&#xf3;n"/>
+                      <Data value="Accesorio"/>
+                      <Data value="Accesorio"/>
+                      <Data value="Alimentaci&#xf3;n"/>
+                    </Column>
+                    <Column editable="true" title="Precio del producto (&#x20ac;)" type="java.lang.Object">
+                      <Data value="20"/>
+                      <Data value="50"/>
+                      <Data value="25"/>
+                      <Data value="10"/>
+                      <Data value="15"/>
+                      <Data value="30"/>
+                    </Column>
+                  </Table>
+                </Property>
+                <Property name="fillsViewportHeight" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
